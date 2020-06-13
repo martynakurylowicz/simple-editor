@@ -3,7 +3,7 @@
 # WTF: Co ten frontend
 Praca domowa - tydzień 9 szkolenia WTF: Co ten frontend edycja 2020r.
 
-Zadanie: Stworzenie prostego edytora odpornego na odświeżanie.
+**Zadanie:** Stworzenie prostego edytora odpornego na odświeżanie.
 
 Autor: *Martyna Kuryłowicz*
 
