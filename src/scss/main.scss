@@ -2,12 +2,91 @@
 
 @import "_variables";
 @import "modules/hello.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
-body {
-  background: $wtf;
-  color: #fff;
+.background {
+  background-color: #121232;
+  margin: auto;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.form__button {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+
+.form__load {
+  flex-direction: column;
+  padding: 10px 14px;
+  width: 156px;
+  height: 40px;
+  background: #4e4e5a;
+  border-radius: 4px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #a1a4b1;
+  line-height: 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form__save {
+  width: 75px;
+  height: 40px;
+  padding: 10px 14px;
+  background: #fafafc;
+  border: 1px solid #121232;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.form__item {
+  width: 734px;
+  height: 250px;
+  left: 354px;
+  top: 302px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a1a4b1;
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.header__description {
+  grid-area: span;
+  grid-column-start: 3;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #ffffff;
+  z-index: 0;
 }
